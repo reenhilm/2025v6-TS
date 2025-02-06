@@ -25,7 +25,7 @@ const myBool: boolean = true;
 //any, unknown, never, and void
 
 //2e Vad är generics?
-//generalisering.. Vi vet inte vad typen kommer vara föräns vi satt typen men vi vill bygga en typ-struktur för det. En dynamisk typ-struktur.
+//generalisering.. Vi vet inte vad typen kommer vara. Så vi skriver den på ett dynamiskt sätt. En typ-struktur för att typen kommer bli låst senare, ungefär som att vi använder en variabel för att hålla typen.
 
 //3 Skriv en funktion som summerar två tal
 function sum(num1: number, num2: number): number {
